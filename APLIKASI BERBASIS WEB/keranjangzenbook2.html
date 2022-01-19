@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="menuu.css"type="text/css">
+        <style>
+        .container{
+            margin: 20px;
+            padding: 20px;
+            background-color: aqua;
+        }
+        .mega-menu ul li select{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    display: block;    
+}
+.deskripsi{
+    display: flex;
+    padding: 0 5%;
+}
+.konten{
+    padding: 5px 5% 5px 0;
+    display: inline-block;
+}
+.konten .box{
+    border-radius: 10px;
+    padding:   10px ;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(134, 134, 134);
+}
+.oke{
+    border-radius: 10px;
+    display: inline-block;
+    background-color: brown;
+}
+ h1{
+    margin: 10px;
+}
+.oke h4{
+    margin: 5%;
+}
+.deskripsinya .isi{
+    border-bottom: 1px solid black;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.deskripsinya .isi .hhh{
+    padding-right: 40px;
+}
+
+        </style>
+    </head>
+    <body>
+        <navbar>
+
+        <div class="wrap">
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product.html">Produts</a></li>
+                    
+                    
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><button href="index.html" onclick="hapus()">Log Out</button></li>
+                   
+                   
+                </ul>
+            </div>
+        </div>
+    </navbar>
+<br>
+
+    <center><h3>Vivobook Deskripsi</h3></center><br>
+    <div class="deskripsi">
+    <div class="konten">
+       <div class="oke">
+        <div class="box"><img src="w800.png" width="100%">
+    <h4>ZenBook Pro Duo 15 OLED UX582LR</h4>
+    <h6>(Intel® Core™ i7-10870H/RTX3070/32GB/1T PCIe/TOUCH OLED UHD/UHD SCREENPAD/Windows 10 Home/Office pre installed)</h6>
+        <br>
+    
+    <center> 
+        <a href="keranjang.html" ><h5>BELI SEKARANG Rp 42.999.000</h5></a>
+        <br>
+    </center>
+    <h6>(Intel® Core™ i9-10980HK/RTX3070/32GB/1T PCIe/TOUCH OLED UHD/UHD SCREENPAD/Windows 10 Professional)</h6>
+        <br>
+    
+        <center> 
+            <a href="keranjang.html" ><h5>BELI SEKARANG Rp 50.999.000</h5></a>
+            <br>
+        </center>
+        </div>
+       </div>
+    </div>
+    
+    <div class="deskripsinya">
+        <div class="isi">
+            <h3 class="hhh">Operasi</h3>
+            Windows 10 Home
+        <br>
+        <br>
+        Windows 10 Pro
+(ASUS recommends Windows 10 Pro for business)
+    </div>
+    <div class="isi">
+        <h3 class="hhh"><br>Processor</h3>
+        Intel® Core™ i7-10870H Processor
+        2.2 GHz 8-core with Turbo Boost (up to 5.0 GHz) and 16 M cache
+        <br>
+        <br>
+        Intel® Core™ i9-10980HK Processor
+        2.4 GHz 8-core with Turbo Boost (up to 5.3 GHz) and 16 M cache
+</div>
+<div class="isi">
+    <h3 class="hhh">Graphics</h3>
+    Intel® UHD graphics, NVIDIA® GeForce® RTX3070, With Boost up to 1440MHz at 90W (110W with Dynamic Boost), 8GB GDDR6
+</div>
+<div class="isi">
+    <h3 class="hhh"><br>Display</h3>
+    15.6” (16:9) LED-backlit OLED UHD (3840 x 2160) touchscreen
+    93% screen-to-body ratio
+<br>
+<br>
+PANTONE® Validated, 100% DCI-P3 gamut
+4096-pressure level stylus support
+</div>
+<div class="isi">
+    <h3 class="hhh">Memory</h3>
+    Up to 32 GB 2933 MHz DDR4
+</div>
+<div class="isi">
+    <h3 class="hhh">Camera</h3>
+    IR webcam Windows Hello
+    </div>
+    <div class="isi">
+        <h3 class="hhh">Storage</h3>
+        Up to 1 TB M.2 NVMe™ PCIe® 3.0 Performance SSD
+        </div>
+    </div>
+
+
+    </body>
+    <script>
+        function hapus(){
+            pesan=confirm('Yakin Ingin Keluar');
+        if(pesan){
+            window.location.href="index.html";
+        }else return false;
+        }
+
+    </script>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="menuu.css"type="text/css">
+        <style>
+        .container{
+            margin: 20px;
+            padding: 20px;
+            background-color: aqua;
+        }
+        .mega-menu ul li select{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    display: block;    
+}
+.konten{
+    padding: 5px 5%;
+    display: inline-block;
+}
+.konten .box{
+    border-radius: 10px;
+    padding:   10px ;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: rgb(134, 134, 134);
+}
+.oke{
+    border-radius: 10px;
+    display: inline-block;
+    background-color: brown;
+}
+ h1{
+    margin: 10px;
+}
+.oke h4{
+    margin: 5%;
+}
+
+        </style>
+    </head>
+    <body>
+        <navbar>
+
+        <div class="wrap">
+            <div class="mega-menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="product.html">Produts</a></li>
+            
+                    
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><button href="index.html" onclick="hapus()">Log Out</button></li>
+                   
+                </ul>
+            </div>
+        </div>
+    </navbar>
+
+
+  <center><h1>Tersedia Barang juga</h1></center>  
+
+    <div class="konten">
+       <div class="oke">
+        <div class="box"><img src="Vivobook Ultra 14 K413.png" width="100%">
+    <h4>Vivobook Ultra 14 K413
+    </h4>
+    <h6>(Windows 10 Home/Intel® Core™ i5-1135G7/MX350/8G/
+        512GB PCIe/VIPS FHD/Office pre-installed)</h6>
+    <br>
+    <center> 
+        <a href="keranjangvivobook.html" ><img src="Hey.png" width="100px"></a>
+        <br>
+        <br>
+    </center>
+    
+    <h6>(Windows 10 Home/Intel® Core™ i5-1135G7/MX350/8G/
+        512GB PCIe/IPS FHD/Office pre-installed)</h6>   
+     <center> 
+            <a href="keranjangvivobook.html" ><img src="Hey.png" width="100px"></a>
+            <br>
+            <br>
+    </center>
+     </div>       
+    </div>
+    </div>
+    <div class="konten">
+       <div class="oke">
+        <div class="box"><img src="w800.png" width="100%">
+    <h4>ZenBook Pro Duo 15 OLED UX582LR</h4>
+    <h6>(Intel® Core™ i7-10870H/RTX3070/32GB/1T PCIe/TOUCH OLED UHD/UHD SCREENPAD/Windows 10 Home/Office pre installed)</h6>
+    <br>
+    
+    <center> 
+        <a href="keranjangzenbook2.html" ><img src="Hey.png" width="100px"></a>
+        <br>
+        <br>
+   </center>
+    
+    <h6>(Intel® Core™ i9-10980HK/RTX3070/32GB/1T PCIe/TOUCH OLED UHD/UHD SCREENPAD/Windows 10 Professional)</h6>
+    <center> 
+        <a href="keranjangzenbook2.html" ><img src="Hey.png" width="100px"></a>
+        <br>   
+        <br>  
+   </div>       
+    </div>
+    </div>
+    <div class="konten">
+       <div class="oke">
+        <div class="box"><img src="zenbook.png" width="100%">
+    <h4>Zenbook Pro 15 OLED (UX535)
+    </h4>
+    <h6>(Intel® Core™ i5-10300H/GTX1650TI/16G/1T PCIE/OLED 4K Touch/SCREENPAD/Windows 10 Home/Office pre installed)</h6>
+    <br>
+    
+    <center> 
+        <a href="keranjangZenBook.html" ><img src="Hey.png" width="100px"></a>
+        <br>
+        <br>
+   </center>
+    <h6>(Intel® Core™ i7-10870H/GTX1650TI/16G/1T PCIE/OLED 4K Touch/SCREENPAD/Windows 10 Home/Office pre installed)</h6>
+    <br>
+    
+    <center> 
+        <a href="keranjangZenBook.html" ><img src="Hey.png" width="100px"></a>
+        <br>
+        <br>
+   </center> 
+    </div>       
+    
+
+    </body>
+    <script>
+        function hapus(){
+            pesan=confirm('Yakin Ingin Keluar');
+        if(pesan){
+            window.location.href="index.html";
+        }else return false;
+        }
+
+    </script>
+</html>
